@@ -18,7 +18,8 @@ html {
     display: flex;
     align-items: center;
     position: sticky;
-    background: black; /* Added background color for the navbar */
+    background: gray; /* Added background color for the navbar */
+    border-radius: 12px;
 }
 
 #navbar::before {
@@ -35,7 +36,7 @@ html {
 
 /* Navigation Bar: Logo & Image */
 #logo {
-    margin: 10px 34px;
+    margin: 8px 24px;
 }
 
 #logo img {
@@ -88,12 +89,17 @@ html {
     left: 0px;
     z-index: -1;
     opacity: 0.89;
+    border-radius: 12px;
 }
 
-#home h1,
-#home p {
-    color: white;
+#home h1{
+    color: black;
     text-align: center;
+}
+#home p {
+    color: black;
+    text-align: center;
+    font-size: large;
 }
 
 /* Services Section */
@@ -113,6 +119,7 @@ html {
 }
 
 #services .box img {
+    border-radius: 50px;
     height: 160px;
     margin: auto;
     display: block;
